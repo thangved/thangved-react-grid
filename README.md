@@ -12,18 +12,39 @@ npm install --save thangved-react-grid
 
 ## Usage
 
+In App.js
+
 ```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'thangved-react-grid'
-import 'thangved-react-grid/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+import 'thangved-react-grid/dist/index.css';
 ```
+
+### Container
+
+```jsx
+import { Container } from 'thangved-react-grid';
+```
+
+| Prop name | Type        | Content             |
+| --------- | ----------- | ------------------- |
+| wide      | **boolean** | Max width: `1024px` |
+
+### Row
+
+```jsx
+import { Row } from 'thangved-react-grid';
+```
+
+### Col
+
+```jsx
+import { Row } from 'thangved-react-grid';
+```
+
+| Prop name | Type                     | Content        |
+| --------- | ------------------------ | -------------- |
+| sm        | **Number** or **String** | Size on mobile |
+| md        | **Number** or **String** | Size on tablet |
+| lg        | **Number** or **String** | Size on pc     |
 
 ## License
 

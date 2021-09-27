@@ -1,10 +1,18 @@
 import React from 'react'
 
-import { ExampleComponent } from 'thangved-react-grid'
+import { Col, Container, Row } from 'thangved-react-grid'
 import 'thangved-react-grid/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <Container wide>
+      <Row>
+        <Col lg='4' md='6' sm='12'>Hello</Col>
+        <Col lg='4' md='6' sm='12'>Hello</Col>
+        <Col lg='4' md='6' sm='12'>Hello</Col>
+      </Row>
+    </Container>
+  )
 }
 
 export default App
