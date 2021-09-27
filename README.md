@@ -1,7 +1,5 @@
 # thangved-react-grid
 
-> Made with create-react-library
-
 [![NPM](https://img.shields.io/npm/v/thangved-react-grid.svg)](https://www.npmjs.com/package/thangved-react-grid) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
@@ -49,3 +47,10 @@ import { Row } from 'thangved-react-grid';
 ## License
 
 MIT © [thangved](https://github.com/thangved)
+
+## Donation
+
+[<img
+  width='30px'
+  src='https://raw.githubusercontent.com/thangved/docusaurus-plugin-2dlive/HEAD/assets/paypal-3384015_1280.png'
+/>](https://www.paypal.com/paypalme/minhthangpay)

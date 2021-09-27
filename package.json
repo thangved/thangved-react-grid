@@ -47,5 +47,10 @@
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "react",
+    "thangved",
+    "grid"
   ]
 }
